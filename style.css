@@ -1,0 +1,238 @@
+/* Color Scheme */
+:root {
+    --pacific-cyan: #2cb0cf;
+    --aquamarine: #44ffd2;
+    --persian-blue: #2541b2;
+    --iris: #5f4bb6;
+    --gunmetal: #122C34;
+}
+
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+/* Styles page background image */
+body {
+    /*background: black;*/
+    background-image: url("images/aesthetic-tile.gif");
+    background-size: contain;
+    /* background-size: 100% auto; */
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Oxanium', sans-serif;
+}
+
+/* Styles the wrapper element that contains the body's content. */
+#wrapper {
+    margin: auto;
+    max-width: 1110px;
+    min-width: 1045px;
+    background: var(--gunmetal);
+    border: 10px var(--pacific-cyan) solid;
+    font-size: medium;
+    color: black;
+}
+
+#content {
+    background: var(--pacific-cyan);
+    min-width: 980px;
+}
+
+/* Sets header, nav, article, section, footer to display as block elements. */
+header, nav, article, section, figure, footer {
+    display: block;
+}
+
+/* Styles the header at the top of the page. */
+header {
+    margin-top: 0;
+    border-radius: 5px;
+    background-color: var(--gunmetal);
+    border-bottom: 10px var(--gunmetal) solid;
+    height: 125px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+footer {
+    color: white;
+}
+
+/* Styles the highest level heading. */
+h1 {
+    position: absolute;
+    top: -15px;
+    margin-left: 30px;
+    font-size: 450%;
+    color: white;
+    font-weight: bold;
+}
+
+/* Styles the second highest level heading. */
+h2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+/* Styles the paragraph text. */
+p {
+    font-size: 120%;
+    text-align: center;
+}
+
+/* Styles links. */
+a {
+    font-size: 120%;
+    color:#44ffd2
+}
+
+/*add a left col*/
+#leftcol {
+    float: left;
+    width: 150px;
+}
+
+/* Style the column on the right. */
+#rightcol {
+    float: right;
+    width: 150px;
+    height: 190px;
+}
+
+/* Style the middle column. */
+#midcol {
+    margin-left: 155px;
+    margin-right: 155px;
+    background: var(--pacific-cyan);
+    padding: 5px;
+}
+
+/* Styles the br element with the class clear. */
+br.clear {
+    clear: both;
+}
+
+/* Styles the middle column left. */
+#midcol-left {
+    float: left;
+    width: 46%;
+    font-weight: bold;
+}
+
+/* Styles the middle column right. */
+#midcol-right {
+    float: right;
+    width: 50%;
+    font-weight: bold;
+}
+
+/* Styles the navigation list. */
+nav ul {
+    float: left;
+    width: 960px;
+    height: 40px;
+    margin-left: 70px;
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* Styles the navigation list items. */
+nav ul li {
+    display: inline-block;
+}
+
+/* Styles button list items. */
+li.btn {
+    width: 115px;
+    line-height: 2;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+/* Style vertical button list items. */
+li.vbtn {
+    width: 115px;
+    line-height: 20px;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+/* Default style with mouse away from vertical button. */
+/* Styles link inside button list items. */
+/* Style vertical button list item links. */
+li.vbtn a, li.btn a {
+    display: block;
+    width: 115px;
+    color: white;
+    background: var(--gunmetal);
+    font-family: 'Oxanium', sans-serif;
+    font-size: 100%;
+    font-weight: bold;
+    text-decoration: none;
+    /* Rounded buttons. */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* Styles the vertical button list items with small font size. */
+li.vbtn a {
+    font-size: small;
+}
+
+/* Styles link inside button list items while hovering. */
+/* Style when mouse hovering over the virtual button. */
+li.vbtn a:hover, li.btn a:hover {
+    background: var(--aquamarine);
+    color: black;
+}
+
+/* Styles link inside button list items while clicked. */
+/* Style when mouse clicked on vertical button. */
+li.vbtn a:active, li.btn a:active {
+    background: var(--persian-blue);
+}
+
+/* Aligns the text to the left. */
+.left {
+    text-align: left;
+}
+
+/* Push quotes to the right. */
+/* .quote {
+    float: right;
+    font-weight: normal;
+    font-size: 90%;
+} */
+
+/* Styles the vertical navigation unordered list menu. */
+nav#vertical ul {
+    float: left;
+    width: 150px;
+    margin-left: -5px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+
+/* The following styles are for the rounded corners. */
+#wrapper {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
