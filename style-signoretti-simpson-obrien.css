@@ -38,6 +38,7 @@ body {
     display: none;
 }
 
+/* Styles the content. */
 #content {
     background: var(--pacific-cyan);
     min-width: 980px;
@@ -61,6 +62,7 @@ header {
     -o-border-radius: 5px;
 }
 
+/* Styles the footer at the bottom of the page. */
 footer {
     color: white;
 }
@@ -214,13 +216,6 @@ li.vbtn a:active, li.btn a:active {
 .left {
     text-align: left;
 }
-
-/* Push quotes to the right. */
-/* .quote {
-    float: right;
-    font-weight: normal;
-    font-size: 90%;
-} */
 
 /* Styles the vertical navigation unordered list menu. */
 nav#vertical ul {
