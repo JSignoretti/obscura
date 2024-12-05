@@ -33,6 +33,11 @@ body {
     color: black;
 }
 
+/* Styles the header h1 element. Hide since we have logo as background. */
+#wrapper header h1 {
+    display: none;
+}
+
 #content {
     background: var(--pacific-cyan);
     min-width: 980px;

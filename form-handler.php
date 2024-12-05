@@ -9,7 +9,7 @@
     <div id="wrapper">
       <header>
         <img alt="Obscura Sound Station" title="Obscura Sound Station" src="images/logo.png" width="100%">
-        <h1 style="display:none">Obscura Sound Station</h1>
+        <h1>Obscura Sound Station</h1>
       </header>
       <nav>
         <ul>
