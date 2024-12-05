@@ -76,6 +76,12 @@ h2 {
     text-align: center;
 }
 
+/* Styles the third highest level heading. */
+h3 {
+    font-size: 120%;
+    text-align: center;
+}
+
 /* Styles the paragraph text. */
 p {
     font-size: 120%;
