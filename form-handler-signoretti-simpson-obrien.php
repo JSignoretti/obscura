@@ -3,7 +3,7 @@
   <head>
     <title>Obscura Sound Station - Submission</title>
     <meta charset="utf-8">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style-signoretti-simpson-obrien.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div id="wrapper">
@@ -13,10 +13,10 @@
       </header>
       <nav>
         <ul>
-        <li class="btn"><a href="index.html" title="Return to Home page">Home Page</a></li>
-        <li class="btn"><a href="music.html" title="Go to the Music page">Music</a></li>
-        <li class="btn"><a href="spotlight.html" title="Go to the Spotlight page">Artists</a></li>
-        <li class="btn"><a href="submission_form.html" title="Go to the submission form">Submissions</a></li>
+        <li class="btn"><a href="index-signoretti-simpson-obrien.html" title="Return to Home page">Home</a></li>
+          <li class="btn"><a href="music-signoretti-simpson-obrien.html" title="Go to the Music page">Music</a></li>
+          <li class="btn"><a href="spotlight-signoretti-simpson-obrien.html" title="Go to the Spotlight page">Artists</a></li>
+          <li class="btn"><a href="submission_form-signoretti-simpson-obrien.html" title="Go to the submission form">Submissions</a></li>
         </ul>
       </nav>
       <div id="content">
@@ -34,7 +34,7 @@
               $data = "Name: $username\nArtist: $artistname\nSong: $songname\nSpotify Link: $spotifylink\n\n";
 
               // Save to a file in the same directory
-              $file = 'submissions.txt';
+              $file = 'submissions-signoretti-simpson-obrien.txt';
               file_put_contents($file, $data, FILE_APPEND);
 
               // Provide feedback to the user
