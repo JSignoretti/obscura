@@ -236,3 +236,22 @@ header {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
+
+/* Stylize the form. */
+
+/* For required star in labels. */
+#form label .red {
+    color: red;
+}
+
+/* Change the color of the input elements to fit with theme */
+#form input {
+    background-color: var(--persian-blue);
+    color: white;
+    font-size: medium;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

@@ -29,32 +29,36 @@
           <p>Submit your favorite song to be featured!</p>
 
           <!-- Start of User Submission Form -->
-          <div id="form">
+          <div id="form" style="text-align: center;">
             <form action="form-handler.php" method="post">
               <div>
                 <label class="label" for="username"><strong>Your Name</strong><span class="red">*</span>
+                  <br><br>
                   <input id="username" name="username" size="30" required>
                 </label>
               </div>
-              <br><br>
+              <br>
               <div>
                 <label class="label" for="artistname"><strong>Artist Name</strong><span class="red">*</span>
+                  <br><br>
                   <input id="artistname" name="artistname" size="30" required>
                 </label>
               </div>
-              <br><br>
+              <br>
               <div>
                 <label class="label" for="songname"><strong>Song Name</strong><span class="red">*</span>
+                  <br><br>
                   <input id="songname" name="songname" size="30" required>
                 </label>
               </div>
-              <br><br>
+              <br>
               <div>
-                <label class="label" for="youtubelink"><strong>YouTube Link</strong><span class="red">*</span>
-                  <input id="youtubelink" name="youtubelink" size="30" type="url" required>
+                <label class="label" for="youtubelink"><strong>Spotify Link</strong><span class="red">*</span>
+                  <br><br>
+                  <input id="spotifylink" name="spotifylink" size="30" type="url" required>
                 </label>
               </div>
-              <br><br>
+              <br>
               <div id="submit">
                 <input id="submit" value="Submit" title="Submit" type="submit">
               </div>

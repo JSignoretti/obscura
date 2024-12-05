@@ -28,10 +28,10 @@
               $username = htmlspecialchars($_POST["username"]);
               $artistname = htmlspecialchars($_POST["artistname"]);
               $songname = htmlspecialchars($_POST["songname"]);
-              $youtubelink = htmlspecialchars($_POST["youtubelink"]);
+              $spotifylink = htmlspecialchars($_POST["spotifylink"]);
 
               // Prepare the data string
-              $data = "Name: $username\nArtist: $artistname\nSong: $songname\nYouTube Link: $youtubelink\n\n";
+              $data = "Name: $username\nArtist: $artistname\nSong: $songname\nSpotify Link: $spotifylink\n\n";
 
               // Save to a file in the same directory
               $file = 'submissions.txt';
